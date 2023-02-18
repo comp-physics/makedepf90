@@ -27,7 +27,7 @@ PROG = makedepf90
 
 VERSION = 2.8.9
 
-CC		?= cc
+CC		?= gcc
 CFLAGS		?= -g -O2
 CPPFLAGS	+= -DVERSION=\"$(VERSION)\"
 
